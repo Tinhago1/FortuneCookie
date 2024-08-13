@@ -1,0 +1,165 @@
+*{
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+}
+
+
+/*screen1*/
+body{
+  background: linear-gradient(45deg, #190361 0%, #B0F 100%);
+
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.hide {
+  display: none;
+}
+
+.screen1{
+  width:42.8rem;
+  height: 42.8rem;
+
+  padding: 4.8rem 6.4rem 6.4rem;
+  border: none;
+  border-radius: .5rem;
+  background: #FFF;
+
+
+  box-shadow: 0px 2rem 5rem 0px rgba(0, 0, 0, 0.80);
+
+
+}
+
+
+h1{
+  color: #34355B;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 2.3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  margin-bottom: 1.4rem;
+}
+
+p{
+  color: #34355B;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 2rem;
+}
+
+#fortCookie{
+  cursor: pointer;
+  width:auto;
+}
+
+
+/*segunda pagina*/
+
+.screen2{
+  width: 40.8rem;
+  height: 43.4rem;
+
+  text-align: center;
+  padding: 4.8rem 6.4rem;
+  border-radius: .5rem;
+  background: #FFF;
+
+  box-shadow: 0px 2rem 5rem 0px rgba(0, 0, 0, 0.80);
+  }
+
+h2{
+  color: #34355B;
+
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  
+  margin-bottom: 1.7rem;
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(100%) scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+#luck{
+  color: #000;
+
+  text-align: center;
+  font-family: "Dancing Script";
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 1rem;
+
+  background: #E4EDF1;
+  box-shadow: 2rem 2rem 2rem 0px rgba(85, 85, 85, 0.50);
+
+  animation: slideUp  3s ease-out forwards;
+  
+}
+
+#btnReset{
+  width: 17rem;
+  height: 5.2rem;
+  border-radius: .4rem;
+  background: #FF9500;
+  border: none;
+  cursor: pointer;
+
+  margin-top: 1.5rem;
+
+
+  color: #FFF;
+
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+
+
+
+#openedCookie{
+  width: 100%;
+  margin-top: 2.5rem ;
+   
+  
+}
+
+#btnReset:hover {
+background: #ad6f17;
+transition: background .3s;
+
+}
+
+
+
